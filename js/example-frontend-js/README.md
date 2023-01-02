@@ -1,18 +1,3 @@
-# Example JS frontend application with coroutines
-
-Build application with
-
-```
-gradlew :example-frontend-js:build
-```
-
-The resulting application can be found in `build/dist` subdirectory.
-
-You can start application with webpack-dev-server using:
-
-```
-gradlew :example-frontend-js:run
-```
-
-Built and deployed application is available at the library documentation site
-[here](https://kotlin.github.io/kotlinx.coroutines/example-frontend-js/index.html).
+version https://git-lfs.github.com/spec/v1
+oid sha256:c1fed529eac4670b0cd75da9cf3da93582188bc93b70c13b51d0d259ac118024
+size 451

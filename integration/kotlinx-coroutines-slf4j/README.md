@@ -1,24 +1,3 @@
-# Module kotlinx-coroutines-slf4j
-
-Integration with SLF4J [MDC](https://logback.qos.ch/manual/mdc.html).
-
-## Example
-
-Add [MDCContext] to the coroutine context so that the SLF4J MDC context is captured and passed into the coroutine.
-
-```kotlin
-MDC.put("kotlin", "rocks") // put a value into the MDC context
-
-launch(MDCContext()) {
-   logger.info { "..." }   // the MDC context will contain the mapping here
-}
-```
-
-# Package kotlinx.coroutines.slf4j
-
-Integration with SLF4J [MDC](https://logback.qos.ch/manual/mdc.html).
-
-<!--- MODULE kotlinx-coroutines-slf4j -->
-<!--- INDEX kotlinx.coroutines.slf4j -->
-[MDCContext]: https://kotlin.github.io/kotlinx.coroutines/kotlinx-coroutines-slf4j/kotlinx.coroutines.slf4j/-m-d-c-context/index.html
-<!--- END -->
+version https://git-lfs.github.com/spec/v1
+oid sha256:18afc65af60e059ef0eb7b9a1de435bdd46e2eba5f8bc525112cfc423bb7e1f9
+size 752

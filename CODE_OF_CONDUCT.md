@@ -1,4 +1,3 @@
-## Code of Conduct
-
-This project and the corresponding community is governed by the [JetBrains Open Source and Community Code of Conduct](https://confluence.jetbrains.com/display/ALL/JetBrains+Open+Source+and+Community+Code+of+Conduct). Please make sure you read it. 
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:c1e414898c9f8aece5614ea84175f9ac47f44681f5165140e76d4103ff740cc9
+size 269

@@ -1,33 +1,3 @@
-/*
- * Copyright 2016-2020 JetBrains s.r.o. Use of this source code is governed by the Apache 2.0 license.
- */
-
-project.kotlin {
-    js(LEGACY) {
-        binaries.executable()
-        browser {
-            distribution {
-                directory = new File(directory.parentFile, "dist")
-            }
-            webpackTask {
-                cssSupport.enabled = true
-            }
-            runTask {
-                cssSupport.enabled = true
-            }
-            testTask {
-                useKarma {
-                    useChromeHeadless()
-                    webpackConfig.cssSupport.enabled = true
-                }
-            }
-        }
-    }
-
-    sourceSets {
-        main.dependencies {
-            implementation "org.jetbrains.kotlinx:kotlinx-html-js:$html_version"
-            implementation(npm("html-webpack-plugin", "3.2.0"))
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:b30f36bb4f25397d8f4b73218e6d5ed9dea997ba5342149d4ed104e707ac599f
+size 868

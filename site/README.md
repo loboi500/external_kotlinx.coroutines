@@ -1,15 +1,3 @@
-# Reference documentation site
-
-This module builds references documentation.
-
-## Building docs
-
-* Install [Docker](https://www.docker.com/)
-* In the project root directory run `./gradlew site`
-* The resulting HTML pages are generated in `site/build/dist`
-* For continuous testing of the documentation run `./gradlew serve` and navigate
-  to the URL that is printed on the screen
-  * Update the docs via `./gradlew copyDocs` while `serve` is running
-
-For release use [`deploy.sh`](deploy.sh) that performs clean build of the site and pushes the results
-into `gh-pages` branch of the project.
+version https://git-lfs.github.com/spec/v1
+oid sha256:6e3c90e5720e533aa63dd27b72b5618c318763da12a46d269d854b438f677440
+size 590

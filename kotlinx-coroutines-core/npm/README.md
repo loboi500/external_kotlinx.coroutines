@@ -1,19 +1,3 @@
-# kotlinx.coroutines 
-
-Library support for Kotlin coroutines in
-[Kotlin/JS](https://kotlinlang.org/docs/reference/js-overview.html).
-
-```kotlin
-suspend fun main() = coroutineScope {
-    launch { 
-       delay(1000)
-       println("Kotlin Coroutines World!") 
-    }
-    println("Hello")
-}
-```
-
-## Documentation 
-
-* [Guide to kotlinx.coroutines by example on JVM](https://kotlinlang.org/docs/reference/coroutines/coroutines-guide.html) (**read it first**)
-* [Full kotlinx.coroutines API reference](https://kotlin.github.io/kotlinx.coroutines)
+version https://git-lfs.github.com/spec/v1
+oid sha256:2a3fcb8ecfe4df11e2da4993d0abab6230db92987ecadd4cf1fb367a2b79bfb5
+size 541
